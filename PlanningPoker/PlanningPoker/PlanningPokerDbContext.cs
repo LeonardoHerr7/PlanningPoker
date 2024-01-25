@@ -2,8 +2,9 @@
 using System.Collections.Generic;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata;
+using PlanningPoker.Entities;
 
-namespace PlanningPoker.CarpetaDeSalida
+namespace PlanningPoker
 {
     public partial class PlanningPokerDbContext : DbContext
     {
@@ -17,7 +18,7 @@ namespace PlanningPoker.CarpetaDeSalida
         }
 
         public virtual DbSet<Actividad> Actividads { get; set; } = null!;
-        public virtual DbSet<Historium> Historia { get; set; } = null!;
+        public virtual DbSet<Historia> Historia { get; set; } = null!;
         public virtual DbSet<Rol> Rols { get; set; } = null!;
         public virtual DbSet<Sesion> Sesions { get; set; } = null!;
         public virtual DbSet<TipoEstimacion> TipoEstimacions { get; set; } = null!;
@@ -47,13 +48,10 @@ namespace PlanningPoker.CarpetaDeSalida
                     .IsUnicode(false);
 
                 entity.HasOne(d => d.IdHistoriaNavigation)
-                    .WithMany(p => p.Actividads)
-                    .HasForeignKey(d => d.IdHistoria)
-                    .OnDelete(DeleteBehavior.ClientSetNull)
-                    .HasConstraintName("FK_Actividad_Historia");
+                    .WithMany(p => p.Actividads);
             });
 
-            modelBuilder.Entity<Historium>(entity =>
+            modelBuilder.Entity<Historia>(entity =>
             {
                 entity.Property(e => e.Descripcion)
                     .HasMaxLength(1000)

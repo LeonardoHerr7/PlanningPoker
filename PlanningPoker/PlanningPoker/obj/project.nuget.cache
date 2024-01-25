@@ -1,11 +1,13 @@
 {
   "version": 2,
-  "dgSpecHash": "zJtn3OAT47sWJxef1BUzt4cY9jgReINUbDE7CKu/IXz1Mn/52HdFjFo3ODh2GxYhLb+kAKWy9rU30MSHZfvyAw==",
+  "dgSpecHash": "/SXtRAY5lbEgnyxAops0Bpaw7RkMSf08igACt4LxYnsVyzamNehCcuIKTp8OJ6ipsZCLX3vnR8vM5jMpI4TpLg==",
   "success": true,
   "projectFilePath": "C:\\Users\\IT-Seekers\\Desktop\\PlanningPoker\\PlanningPoker\\PlanningPoker\\PlanningPoker.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\IT-Seekers\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\IT-Seekers\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\IT-Seekers\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
-    "C:\\Users\\IT-Seekers\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
+    "C:\\Users\\IT-Seekers\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512",
     "C:\\Users\\IT-Seekers\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.4\\microsoft.data.sqlclient.2.1.4.nupkg.sha512",
     "C:\\Users\\IT-Seekers\\.nuget\\packages\\microsoft.data.sqlclient.sni.runtime\\2.1.1\\microsoft.data.sqlclient.sni.runtime.2.1.1.nupkg.sha512",
     "C:\\Users\\IT-Seekers\\.nuget\\packages\\microsoft.entityframeworkcore\\6.0.0\\microsoft.entityframeworkcore.6.0.0.nupkg.sha512",
